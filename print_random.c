@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "random.c"
 
 
-
-int main()
-{
+int main() {
 	int a;
 
 	/* seed the randomizer */
@@ -18,4 +17,3 @@ int main()
 
 	return(0);
 }
-
